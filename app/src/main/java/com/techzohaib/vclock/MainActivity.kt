@@ -22,7 +22,12 @@ class MainActivity : AppCompatActivity() {
 
         mAdView = findViewById(R.id.adView)
         val adRequest = AdRequest.Builder().build()
-        mAdView.loadAd(adRequest)
+
+        val delay = 3000L
+
+        mAdView.postDelayed({
+            mAdView.loadAd(adRequest)
+        }, delay)
 
         val myBrowser = findViewById<WebView>(R.id.web)
         val animationView = findViewById<View>(R.id.animationView)
