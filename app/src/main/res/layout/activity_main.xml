@@ -38,13 +38,10 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-6165236633635278/3958799998"
+        app:adUnitId="ca-app-pub-6165236633635278/2952941713"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-    <!-- Test Banner ID : ca-app-pub-3940256099942544/6300978111-->
